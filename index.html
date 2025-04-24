@@ -1,39 +1,80 @@
 # botbaba.github.io
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <title>CSS grouping elements</title>
-    <meta charset="utf-8">
-    <style>
-        .lovey-dovey {
-            color: red;
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
         }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        .details, .highlights {
+            margin: 15px 0;
+        }
+        .guest-list {
+            font-style: italic;
+            margin: 15px 0;
+        }
+        .rsvp {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .rsvp a {
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+        .rsvp a:hover {
+            background-color: #45a049;
+        }
+        </style>
+    </head>
+    <body>
         
-        #official-info {
-            background: rgb(230, 230, 230);
-        }
-    </style>
-</head>
-<body>
-    
-    <h1>All <div>About</div> Cats</h1>
-
-    <h3>Why I <span class="lovey-dovey">Love</span> Cats</h3>
-    <ul>
-        <li>Furry
-        <li>Cute
-        <li>Evil
-    </ul>
-    
-    
-    <div id="official-info"><h3>Official Info on Cats</h3>
-    <p><img src="https://www.kasandbox.org/programming-images/animals/cat.png" width="100"> The cat (Felis catus), also known as the domestic cat or housecat to distinguish it from other felines and felids, is a small domesticated carnivorous mammal that is valued by humans for its companionship and ability to hunt vermin and household pests. Cats have been associated with humans for at least 9,500 years, and are currently the most popular pet in the world. Owing to their close association with humans, cats are now found almost everywhere on Earth.</p>
-    <p>Cats are similar in anatomy to the other felids, with strong, flexible bodies, quick reflexes, sharp retractable claws, and teeth adapted to killing small prey. As nocturnal predators, cats use their acute hearing and ability to see in near darkness to locate prey. Not only can cats hear sounds too faint for human ears, they can also hear sounds higher in frequency than humans can perceive. This is because cats' usual prey (particularly rodents such as mice) make high frequency noises, so cats' hearing has evolved to pinpoint these faint high-pitched sounds. Cats rely more on smell than taste, and have a vastly better sense of smell than humans.</p>
-    <p>Despite being solitary hunters, cats are a social species and use a variety of vocalizations, pheromones and types of body language for communication. These include meowing, purring, trilling, hissing, growling, and grunting.</p>
-    <p>Cats have a rapid breeding rate. Under controlled breeding, they can be bred and shown as registered pedigree pets, a hobby known as cat fancy. Failure to control the breeding of pet cats by spaying and neutering and the abandonment of former household pets has resulted in problems caused by large numbers of feral cats worldwide, with a population of up to 60 million of these animals in the United States alone.</p>
+        <div class="container">
+        <h1>Springtime Soirée</h1>
+        <p><em>A Celebration of Blossoms, Laughter, and Friendship</em></p>
+        <div class="details">
+            <h2>Event Details</h2>
+            <p><strong>Date:</strong> Saturday, May 24th, 2025</p>
+            <p><strong>Time:</strong> 6:00 PM until Midnight</p>
+            <p><strong>Venue:</strong> Rosewood Garden Hall, 123 Bloom Street, Warwick</p>
+        </div>
+        <div class="highlights">
+            <h2>Highlights</h2>
+            <ul>
+                <li>Live Music</li>
+                <li>Gourmet Buffet</li>
+                <li>Interactive Flower Arrangement Workshop</li>
+            </ul>
+        </div>
+        <div class="guest-list">
+            <h2>Special Guests</h2>
+            <p>Babatunde Yusuf & Friends</p>
+            <p>More names to be revealed soon!</p>
+        </div>
+        <div class="rsvp">
+            <h2>RSVP</h2>
+            <p>Kindly confirm your attendance by May 15th!</p>
+            <a href="#">Click Here to RSVP</a>
+        </div>
     </div>
-    
-    Read more on <a href="http://en.wikipedia.org/wiki/Cat">Wikipedia</a>.
-
-</body>
+        
+    </body>
 </html>
